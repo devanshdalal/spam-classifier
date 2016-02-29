@@ -1,0 +1,14 @@
+Train Data Loaded in LibSvm
+*
+optimization finished, #iter = 742
+nu = 0.192296
+obj = -229.235607, rho = -0.504829
+nSV = 530, nBSV = 281
+Total nSV = 530
+Now LibSvm has learnt the model ...
+Accracy in train data itself: 
+Accuracy = 99.65% (1993/2000) (classification)
+Test File Loaded in LibSvm. Wait for a few seconds for accuracy
+Accuracy = 89.2% (892/1000) (classification)
+>> 
+>> 

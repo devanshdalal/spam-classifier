@@ -1,0 +1,25 @@
+n =
+
+   996
+
+
+m =
+
+        2000
+
+File Loaded in LibSvm.
+Now LibSvm is solving our problem ....
+.
+WARNING: using -h 0 may be faster
+*.*
+optimization finished, #iter = 2069
+nu = 0.000217
+obj = -0.216890, rho = -0.083216
+nSV = 152, nBSV = 0
+Total nSV = 152
+spam/total in train data  : 1148/2000
+estimated spam/total in train data  : 1148/2000
+Accuracy 2000/2000.
+spam/total in train data  : 580/1000
+estimated spam/total in train data  : 659/1000
+Accuracy 913/1000.

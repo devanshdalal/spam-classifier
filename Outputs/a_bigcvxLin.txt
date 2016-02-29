@@ -1,0 +1,605 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2014 The MathWorks, Inc.
+                   R2014b (8.4.0.150421) 64-bit (glnxa64)
+                             September 15, 2014
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+Setting CVX paths...done.
+
+n =
+
+        1000
+
+
+m =
+
+        9000
+
+ 
+Calling SDPT3 4.0: 19001 variables, 9001 equality constraints
+   For improved efficiency, SDPT3 is solving the dual problem.
+------------------------------------------------------------
+
+ num. of constraints = 9001
+ dim. of socp   var  = 1000,   num. of socp blk  =  1
+ dim. of linear var  = 18000
+ dim. of free   var  =  1 *** convert ublk to lblk
+ number of dense column in A = 2
+*******************************************************************
+   SDPT3: Infeasible path-following algorithms
+*******************************************************************
+ version  predcorr  gam  expon  scale_data
+    NT      1      0.000   1        0    
+it pstep dstep pinfeas dinfeas  gap      prim-obj      dual-obj    cputime
+-------------------------------------------------------------------
+ 0|0.000|0.000|1.2e+01|1.9e+02|6.4e+14| 2.390073e+12  0.000000e+00| 0:2:51| chol  1  1 
+ 1|0.903|0.880|1.2e+00|2.3e+01|8.1e+13| 2.397956e+12 -5.029316e+07| 0:5:38| chol  1  2 
+ 2|1.000|0.044|8.7e-10|2.2e+01|1.2e+14| 3.769274e+12 -8.487674e+07| 0:8:33| chol  2  2 
+ 3|1.000|0.431|1.6e-08|1.2e+01|9.4e+13| 4.977147e+12 -1.076789e+09| 0:11:21| chol  2  2 
+ 4|1.000|0.299|7.2e-08|8.8e+00|8.6e+13| 6.348226e+12 -1.220989e+09| 0:14:09| chol  2  2 
+ 5|1.000|0.836|3.2e-08|1.5e+00|1.7e+13| 5.603082e+12 -6.541762e+08| 0:16:56| chol  2  2 
+ 6|1.000|0.525|9.2e-09|7.0e-01|5.7e+12| 2.807285e+12 -6.496157e+08| 0:19:41| chol  2  2 
+ 7|1.000|0.648|1.2e-08|2.5e-01|1.1e+12| 7.800786e+11 -6.140394e+08| 0:22:26| chol  2  2 
+ 8|0.871|0.878|8.2e-09|3.4e-02|1.7e+11| 1.637907e+11 -5.174759e+08| 0:25:12| chol  2  2 
+ 9|0.305|0.037|2.2e-09|3.3e-02|1.5e+11| 1.419412e+11 -5.145302e+08| 0:27:54| chol  2  2 
+10|1.000|0.229|5.2e-08|2.6e-02|1.1e+11| 1.052976e+11 -4.744849e+08| 0:30:47| chol  2  2 
+11|0.673|0.436|7.8e-08|1.5e-02|6.8e+10| 6.656394e+10 -4.215302e+08| 0:33:33| chol  2 * 3 
+12|1.000|0.232|3.1e-07|1.1e-02|4.2e+10| 4.054304e+10 -3.916309e+08| 0:36:23| chol  2 * 3 
+13|1.000|0.382|1.2e-06|7.1e-03|2.4e+10| 2.299282e+10 -3.405197e+08| 0:39:08| chol  2  3 
+14|1.000|0.362|5.5e-09|4.5e-03|1.4e+10| 1.350874e+10 -2.940364e+08| 0:41:56| chol  3  3 
+15|1.000|0.378|1.8e-06|2.8e-03|7.6e+09| 7.341528e+09 -2.501900e+08| 0:44:45| chol  2  3 
+16|1.000|0.364|9.4e-07|1.8e-03|4.4e+09| 4.177701e+09 -2.092797e+08| 0:47:30| chol  3  3 
+17|1.000|0.379|2.3e-05|1.1e-03|2.4e+09| 2.230520e+09 -1.696494e+08| 0:50:18| chol  3  3 
+18|1.000|0.365|3.3e-05|7.1e-04|1.4e+09| 1.255721e+09 -1.328470e+08| 0:53:07| chol  2  3 
+19|1.000|0.369|9.9e-06|4.5e-04|8.0e+08| 7.012741e+08 -1.002498e+08| 0:55:54| chol  3  3 
+20|1.000|0.361|1.6e-05|2.9e-04|4.8e+08| 4.041888e+08 -7.402233e+07| 0:58:41| chol  3  3 
+21|1.000|0.353|2.2e-04|1.9e-04|2.9e+08| 2.394968e+08 -5.480518e+07| 1:01:29| chol  3  3 
+22|1.000|0.377|1.6e-05|1.2e-04|1.7e+08| 1.293322e+08 -3.886140e+07| 1:04:18| chol  3  3 
+23|1.000|0.378|6.8e-05|7.2e-05|9.5e+07| 6.844977e+07 -2.699737e+07| 1:07:01| chol  3  3 
+24|1.000|0.364|6.7e-05|4.6e-05|5.7e+07| 3.794796e+07 -1.900806e+07| 1:09:51| chol  3  3 
+25|1.000|0.367|7.1e-05|2.9e-05|3.4e+07| 2.088289e+07 -1.332185e+07| 1:12:40| chol  3  3 
+26|1.000|0.369|2.9e-04|1.9e-05|2.1e+07| 1.126643e+07 -9.311812e+06| 1:15:28| chol  3  4 
+27|1.000|0.323|7.4e-04|1.3e-05|1.4e+07| 7.208554e+06 -7.021577e+06| 1:18:12| chol  3  3 
+28|1.000|0.361|1.3e-04|8.3e-06|9.2e+06| 4.105354e+06 -5.140194e+06| 1:21:01| chol  3  4 
+29|1.000|0.389|1.7e-04|5.4e-06|5.7e+06| 1.960064e+06 -3.699273e+06| 1:23:56| chol  3  4 
+30|1.000|0.382|8.0e-05|3.8e-06|3.7e+06| 8.788448e+05 -2.784234e+06| 1:26:42| chol  3  4 
+31|1.000|0.418|1.7e-05|2.9e-06|2.4e+06| 2.660756e+05 -2.136520e+06| 1:29:35| chol  3  3 
+32|1.000|0.463|1.8e-05|2.7e-06|1.6e+06|-5.990984e+04 -1.706417e+06| 1:32:26| chol  3  3 
+33|1.000|0.625|4.5e-05|2.6e-06|8.7e+05|-4.590450e+05 -1.327327e+06| 1:35:15| chol  3  3 
+34|1.000|0.693|1.8e-05|3.2e-06|4.5e+05|-6.885278e+05 -1.138942e+06| 1:38:04| chol  2  3 
+35|0.878|0.815|4.8e-06|4.2e-06|2.3e+05|-8.187003e+05 -1.046450e+06| 1:40:52| chol  2  2 
+36|1.000|0.814|6.6e-07|1.8e-06|1.4e+05|-8.811236e+05 -1.025755e+06| 1:43:40| chol  2  2 
+37|1.000|0.499|4.3e-07|1.0e-06|9.2e+04|-9.255081e+05 -1.017039e+06| 1:46:25| chol  2  3 
+38|1.000|0.380|2.8e-06|7.1e-07|5.3e+04|-9.572305e+05 -1.010048e+06| 1:49:09| chol  3  3 
+39|0.805|0.356|6.2e-06|5.9e-07|3.9e+04|-9.655409e+05 -1.004938e+06| 1:51:56| chol  3  3 
+40|1.000|0.394|2.2e-06|5.5e-07|2.5e+04|-9.755654e+05 -1.000440e+06| 1:54:41| chol  2  3 
+41|0.963|0.455|7.7e-07|5.9e-07|1.7e+04|-9.797696e+05 -9.968112e+05| 1:57:26| chol  2  3 
+42|1.000|0.506|7.7e-07|4.5e-07|1.3e+04|-9.818407e+05 -9.944722e+05| 2:00:12| chol  2  3 
+43|1.000|0.511|8.5e-07|3.7e-07|6.9e+03|-9.856382e+05 -9.925844e+05| 2:02:55| chol  2  2 
+44|1.000|0.554|3.8e-07|3.4e-07|3.7e+03|-9.875859e+05 -9.912678e+05| 2:05:42| chol  2  2 
+45|1.000|0.710|1.2e-07|1.7e-07|1.3e+03|-9.889433e+05 -9.902140e+05| 2:08:26| chol  2  2 
+46|1.000|0.643|2.4e-08|8.5e-08|4.3e+02|-9.894489e+05 -9.898833e+05| 2:11:10| chol  2  2 
+47|1.000|0.502|2.8e-08|4.7e-08|1.9e+02|-9.895983e+05 -9.897887e+05| 2:13:54| chol  2  3 
+48|1.000|0.435|1.5e-07|3.2e-08|9.5e+01|-9.896527e+05 -9.897477e+05| 2:16:39| chol  2  3 
+49|0.727|0.346|9.3e-09|2.9e-08|6.8e+01|-9.896631e+05 -9.897308e+05| 2:19:28| chol  2  3 
+50|0.991|0.305|3.5e-08|2.2e-08|5.1e+01|-9.896708e+05 -9.897217e+05| 2:22:15| chol  3  3 
+51|0.789|0.355|2.1e-08|1.7e-08|3.7e+01|-9.896771e+05 -9.897137e+05| 2:25:05| chol  2  3 
+52|0.902|0.309|2.3e-08|1.6e-08|2.7e+01|-9.896818e+05 -9.897090e+05| 2:27:52| chol  2  3 
+53|1.000|0.379|1.1e-08|1.4e-08|2.0e+01|-9.896850e+05 -9.897048e+05| 2:30:41| chol  3  3 
+54|1.000|0.446|2.1e-08|1.0e-08|1.3e+01|-9.896879e+05 -9.897012e+05| 2:33:27| chol  2  3 
+55|1.000|0.360|5.3e-08|9.7e-09|9.9e+00|-9.896895e+05 -9.896994e+05| 2:36:13| chol  3  3 
+56|0.950|0.444|1.7e-08|1.0e-08|7.1e+00|-9.896907e+05 -9.896978e+05| 2:39:04| chol  2  3 
+57|0.964|0.521|1.3e-08|8.2e-09|4.7e+00|-9.896917e+05 -9.896965e+05| 2:41:48| chol  2  2 
+58|0.486|0.254|1.1e-07|8.8e-09|4.1e+00|-9.896919e+05 -9.896961e+05| 2:44:33| chol  2  2 
+59|0.947|0.690|2.8e-09|6.7e-09|2.5e+00|-9.896927e+05 -9.896952e+05| 2:47:15| chol  2  3 
+60|1.000|0.488|7.0e-10|4.0e-09|1.7e+00|-9.896932e+05 -9.896948e+05| 2:50:06| chol  3  3 
+61|1.000|0.329|4.8e-09|2.8e-09|1.2e+00|-9.896935e+05 -9.896947e+05| 2:52:56| chol  2  2 
+62|0.889|0.933|2.7e-09|5.4e-10|5.5e-01|-9.896937e+05 -9.896942e+05| 2:55:42| chol  2  2 
+63|1.000|0.921|7.5e-12|6.3e-10|3.2e-01|-9.896938e+05 -9.896941e+05| 2:58:28| chol  2  2 
+64|1.000|0.931|1.5e-11|9.7e-10|1.5e-01|-9.896939e+05 -9.896941e+05| 3:01:20| chol  2  2 
+65|0.854|0.960|1.8e-12|2.0e-09|3.9e-02|-9.896940e+05 -9.896940e+05| 3:04:08| chol  2  2 
+66|0.996|0.936|3.3e-13|2.0e-09|1.6e-02|-9.896940e+05 -9.896940e+05| 3:06:56|
+  stop: max(relative gap, infeasibilities) < 1.49e-08
+-------------------------------------------------------------------
+ number of iterations   = 66
+ primal objective value = -9.89693986e+05
+ dual   objective value = -9.89694002e+05
+ gap := trace(XZ)       = 1.58e-02
+ relative gap           = 8.01e-09
+ actual relative gap    = 8.01e-09
+ rel. primal infeas (scaled problem)   = 3.29e-13
+ rel. dual     "        "       "      = 2.01e-09
+ rel. primal infeas (unscaled problem) = 0.00e+00
+ rel. dual     "        "       "      = 0.00e+00
+ norm(X), norm(y), norm(Z) = 1.4e+06, 1.2e+00, 9.5e+01
+ norm(A), norm(b), norm(C) = 1.9e+02, 2.0e+06, 9.6e+01
+ Total CPU time (secs)  = 11216.24  
+ CPU time per iteration = 169.94  
+ termination code       =  0
+ DIMACS: 3.3e-13  0.0e+00  9.6e-08  0.0e+00  8.0e-09  8.0e-09
+-------------------------------------------------------------------
+ 
+------------------------------------------------------------
+Status: Solved
+Optimal value (cvx_optval): -3.66305
+ 
+One of the suppoert vector is: 70th point .
+One of the suppoert vector is: 111th point .
+One of the suppoert vector is: 180th point .
+One of the suppoert vector is: 216th point .
+One of the suppoert vector is: 278th point .
+One of the suppoert vector is: 334th point .
+One of the suppoert vector is: 346th point .
+One of the suppoert vector is: 347th point .
+One of the suppoert vector is: 350th point .
+One of the suppoert vector is: 380th point .
+One of the suppoert vector is: 420th point .
+One of the suppoert vector is: 475th point .
+One of the suppoert vector is: 500th point .
+One of the suppoert vector is: 501th point .
+One of the suppoert vector is: 644th point .
+One of the suppoert vector is: 651th point .
+One of the suppoert vector is: 661th point .
+One of the suppoert vector is: 702th point .
+One of the suppoert vector is: 806th point .
+One of the suppoert vector is: 936th point .
+One of the suppoert vector is: 951th point .
+One of the suppoert vector is: 955th point .
+One of the suppoert vector is: 976th point .
+One of the suppoert vector is: 1006th point .
+One of the suppoert vector is: 1095th point .
+One of the suppoert vector is: 1104th point .
+One of the suppoert vector is: 1120th point .
+One of the suppoert vector is: 1121th point .
+One of the suppoert vector is: 1221th point .
+One of the suppoert vector is: 1222th point .
+One of the suppoert vector is: 1246th point .
+One of the suppoert vector is: 1249th point .
+One of the suppoert vector is: 1256th point .
+One of the suppoert vector is: 1368th point .
+One of the suppoert vector is: 1390th point .
+One of the suppoert vector is: 1426th point .
+One of the suppoert vector is: 1461th point .
+One of the suppoert vector is: 1516th point .
+One of the suppoert vector is: 1537th point .
+One of the suppoert vector is: 1549th point .
+One of the suppoert vector is: 1564th point .
+One of the suppoert vector is: 1591th point .
+One of the suppoert vector is: 1608th point .
+One of the suppoert vector is: 1685th point .
+One of the suppoert vector is: 1699th point .
+One of the suppoert vector is: 1704th point .
+One of the suppoert vector is: 1774th point .
+One of the suppoert vector is: 1775th point .
+One of the suppoert vector is: 1780th point .
+One of the suppoert vector is: 1786th point .
+One of the suppoert vector is: 1836th point .
+One of the suppoert vector is: 1871th point .
+One of the suppoert vector is: 1894th point .
+One of the suppoert vector is: 1908th point .
+One of the suppoert vector is: 1954th point .
+One of the suppoert vector is: 1957th point .
+One of the suppoert vector is: 1999th point .
+One of the suppoert vector is: 2002th point .
+One of the suppoert vector is: 2027th point .
+One of the suppoert vector is: 2157th point .
+One of the suppoert vector is: 2166th point .
+One of the suppoert vector is: 2207th point .
+One of the suppoert vector is: 2272th point .
+One of the suppoert vector is: 2338th point .
+One of the suppoert vector is: 2354th point .
+One of the suppoert vector is: 2375th point .
+One of the suppoert vector is: 2379th point .
+One of the suppoert vector is: 2386th point .
+One of the suppoert vector is: 2433th point .
+One of the suppoert vector is: 2444th point .
+One of the suppoert vector is: 2449th point .
+One of the suppoert vector is: 2451th point .
+One of the suppoert vector is: 2487th point .
+One of the suppoert vector is: 2501th point .
+One of the suppoert vector is: 2507th point .
+One of the suppoert vector is: 2514th point .
+One of the suppoert vector is: 2524th point .
+One of the suppoert vector is: 2550th point .
+One of the suppoert vector is: 2562th point .
+One of the suppoert vector is: 2567th point .
+One of the suppoert vector is: 2582th point .
+One of the suppoert vector is: 2595th point .
+One of the suppoert vector is: 2598th point .
+One of the suppoert vector is: 2678th point .
+One of the suppoert vector is: 2690th point .
+One of the suppoert vector is: 2698th point .
+One of the suppoert vector is: 2702th point .
+One of the suppoert vector is: 2732th point .
+One of the suppoert vector is: 2736th point .
+One of the suppoert vector is: 2742th point .
+One of the suppoert vector is: 2746th point .
+One of the suppoert vector is: 2762th point .
+One of the suppoert vector is: 2764th point .
+One of the suppoert vector is: 2773th point .
+One of the suppoert vector is: 2777th point .
+One of the suppoert vector is: 2787th point .
+One of the suppoert vector is: 2797th point .
+One of the suppoert vector is: 2815th point .
+One of the suppoert vector is: 2825th point .
+One of the suppoert vector is: 2846th point .
+One of the suppoert vector is: 2854th point .
+One of the suppoert vector is: 2908th point .
+One of the suppoert vector is: 2917th point .
+One of the suppoert vector is: 2929th point .
+One of the suppoert vector is: 2942th point .
+One of the suppoert vector is: 2953th point .
+One of the suppoert vector is: 2994th point .
+One of the suppoert vector is: 3001th point .
+One of the suppoert vector is: 3031th point .
+One of the suppoert vector is: 3042th point .
+One of the suppoert vector is: 3048th point .
+One of the suppoert vector is: 3053th point .
+One of the suppoert vector is: 3054th point .
+One of the suppoert vector is: 3070th point .
+One of the suppoert vector is: 3084th point .
+One of the suppoert vector is: 3110th point .
+One of the suppoert vector is: 3115th point .
+One of the suppoert vector is: 3124th point .
+One of the suppoert vector is: 3134th point .
+One of the suppoert vector is: 3140th point .
+One of the suppoert vector is: 3166th point .
+One of the suppoert vector is: 3176th point .
+One of the suppoert vector is: 3178th point .
+One of the suppoert vector is: 3182th point .
+One of the suppoert vector is: 3188th point .
+One of the suppoert vector is: 3197th point .
+One of the suppoert vector is: 3212th point .
+One of the suppoert vector is: 3228th point .
+One of the suppoert vector is: 3242th point .
+One of the suppoert vector is: 3285th point .
+One of the suppoert vector is: 3289th point .
+One of the suppoert vector is: 3306th point .
+One of the suppoert vector is: 3316th point .
+One of the suppoert vector is: 3324th point .
+One of the suppoert vector is: 3375th point .
+One of the suppoert vector is: 3390th point .
+One of the suppoert vector is: 3414th point .
+One of the suppoert vector is: 3435th point .
+One of the suppoert vector is: 3461th point .
+One of the suppoert vector is: 3462th point .
+One of the suppoert vector is: 3486th point .
+One of the suppoert vector is: 3508th point .
+One of the suppoert vector is: 3535th point .
+One of the suppoert vector is: 3541th point .
+One of the suppoert vector is: 3556th point .
+One of the suppoert vector is: 3603th point .
+One of the suppoert vector is: 3605th point .
+One of the suppoert vector is: 3607th point .
+One of the suppoert vector is: 3635th point .
+One of the suppoert vector is: 3658th point .
+One of the suppoert vector is: 3671th point .
+One of the suppoert vector is: 3684th point .
+One of the suppoert vector is: 3689th point .
+One of the suppoert vector is: 3701th point .
+One of the suppoert vector is: 3702th point .
+One of the suppoert vector is: 3709th point .
+One of the suppoert vector is: 3722th point .
+One of the suppoert vector is: 3723th point .
+One of the suppoert vector is: 3739th point .
+One of the suppoert vector is: 3751th point .
+One of the suppoert vector is: 3772th point .
+One of the suppoert vector is: 3791th point .
+One of the suppoert vector is: 3793th point .
+One of the suppoert vector is: 3813th point .
+One of the suppoert vector is: 3814th point .
+One of the suppoert vector is: 3819th point .
+One of the suppoert vector is: 3820th point .
+One of the suppoert vector is: 3824th point .
+One of the suppoert vector is: 3829th point .
+One of the suppoert vector is: 3833th point .
+One of the suppoert vector is: 3844th point .
+One of the suppoert vector is: 3850th point .
+One of the suppoert vector is: 3854th point .
+One of the suppoert vector is: 3855th point .
+One of the suppoert vector is: 3868th point .
+One of the suppoert vector is: 3887th point .
+One of the suppoert vector is: 3915th point .
+One of the suppoert vector is: 3950th point .
+One of the suppoert vector is: 3951th point .
+One of the suppoert vector is: 3955th point .
+One of the suppoert vector is: 3964th point .
+One of the suppoert vector is: 3975th point .
+One of the suppoert vector is: 3984th point .
+One of the suppoert vector is: 3995th point .
+One of the suppoert vector is: 4010th point .
+One of the suppoert vector is: 4055th point .
+One of the suppoert vector is: 4061th point .
+One of the suppoert vector is: 4070th point .
+One of the suppoert vector is: 4129th point .
+One of the suppoert vector is: 4140th point .
+One of the suppoert vector is: 4147th point .
+One of the suppoert vector is: 4157th point .
+One of the suppoert vector is: 4158th point .
+One of the suppoert vector is: 4161th point .
+One of the suppoert vector is: 4166th point .
+One of the suppoert vector is: 4191th point .
+One of the suppoert vector is: 4204th point .
+One of the suppoert vector is: 4214th point .
+One of the suppoert vector is: 4218th point .
+One of the suppoert vector is: 4231th point .
+One of the suppoert vector is: 4232th point .
+One of the suppoert vector is: 4269th point .
+One of the suppoert vector is: 4272th point .
+One of the suppoert vector is: 4273th point .
+One of the suppoert vector is: 4319th point .
+One of the suppoert vector is: 4326th point .
+One of the suppoert vector is: 4337th point .
+One of the suppoert vector is: 4353th point .
+One of the suppoert vector is: 4379th point .
+One of the suppoert vector is: 4391th point .
+One of the suppoert vector is: 4400th point .
+One of the suppoert vector is: 4404th point .
+One of the suppoert vector is: 4414th point .
+One of the suppoert vector is: 4425th point .
+One of the suppoert vector is: 4434th point .
+One of the suppoert vector is: 4435th point .
+One of the suppoert vector is: 4439th point .
+One of the suppoert vector is: 4455th point .
+One of the suppoert vector is: 4465th point .
+One of the suppoert vector is: 4477th point .
+One of the suppoert vector is: 4487th point .
+One of the suppoert vector is: 4489th point .
+One of the suppoert vector is: 4504th point .
+One of the suppoert vector is: 4507th point .
+One of the suppoert vector is: 4518th point .
+One of the suppoert vector is: 4542th point .
+One of the suppoert vector is: 4556th point .
+One of the suppoert vector is: 4566th point .
+One of the suppoert vector is: 4571th point .
+One of the suppoert vector is: 4574th point .
+One of the suppoert vector is: 4582th point .
+One of the suppoert vector is: 4660th point .
+One of the suppoert vector is: 4667th point .
+One of the suppoert vector is: 4673th point .
+One of the suppoert vector is: 4724th point .
+One of the suppoert vector is: 4737th point .
+One of the suppoert vector is: 4744th point .
+One of the suppoert vector is: 4753th point .
+One of the suppoert vector is: 4764th point .
+One of the suppoert vector is: 4778th point .
+One of the suppoert vector is: 4818th point .
+One of the suppoert vector is: 4819th point .
+One of the suppoert vector is: 4833th point .
+One of the suppoert vector is: 4873th point .
+One of the suppoert vector is: 4888th point .
+One of the suppoert vector is: 4930th point .
+One of the suppoert vector is: 4937th point .
+One of the suppoert vector is: 4944th point .
+One of the suppoert vector is: 4950th point .
+One of the suppoert vector is: 4969th point .
+One of the suppoert vector is: 4977th point .
+One of the suppoert vector is: 4985th point .
+One of the suppoert vector is: 4991th point .
+One of the suppoert vector is: 4997th point .
+One of the suppoert vector is: 4999th point .
+One of the suppoert vector is: 5016th point .
+One of the suppoert vector is: 5021th point .
+One of the suppoert vector is: 5029th point .
+One of the suppoert vector is: 5032th point .
+One of the suppoert vector is: 5043th point .
+One of the suppoert vector is: 5045th point .
+One of the suppoert vector is: 5052th point .
+One of the suppoert vector is: 5055th point .
+One of the suppoert vector is: 5063th point .
+One of the suppoert vector is: 5069th point .
+One of the suppoert vector is: 5074th point .
+One of the suppoert vector is: 5075th point .
+One of the suppoert vector is: 5083th point .
+One of the suppoert vector is: 5112th point .
+One of the suppoert vector is: 5119th point .
+One of the suppoert vector is: 5124th point .
+One of the suppoert vector is: 5135th point .
+One of the suppoert vector is: 5158th point .
+One of the suppoert vector is: 5168th point .
+One of the suppoert vector is: 5170th point .
+One of the suppoert vector is: 5172th point .
+One of the suppoert vector is: 5188th point .
+One of the suppoert vector is: 5218th point .
+One of the suppoert vector is: 5223th point .
+One of the suppoert vector is: 5225th point .
+One of the suppoert vector is: 5226th point .
+One of the suppoert vector is: 5250th point .
+One of the suppoert vector is: 5253th point .
+One of the suppoert vector is: 5254th point .
+One of the suppoert vector is: 5260th point .
+One of the suppoert vector is: 5263th point .
+One of the suppoert vector is: 5265th point .
+One of the suppoert vector is: 5275th point .
+One of the suppoert vector is: 5283th point .
+One of the suppoert vector is: 5297th point .
+One of the suppoert vector is: 5320th point .
+One of the suppoert vector is: 5326th point .
+One of the suppoert vector is: 5334th point .
+One of the suppoert vector is: 5353th point .
+One of the suppoert vector is: 5410th point .
+One of the suppoert vector is: 5447th point .
+One of the suppoert vector is: 5451th point .
+One of the suppoert vector is: 5455th point .
+One of the suppoert vector is: 5488th point .
+One of the suppoert vector is: 5507th point .
+One of the suppoert vector is: 5549th point .
+One of the suppoert vector is: 5564th point .
+One of the suppoert vector is: 5578th point .
+One of the suppoert vector is: 5587th point .
+One of the suppoert vector is: 5606th point .
+One of the suppoert vector is: 5609th point .
+One of the suppoert vector is: 5617th point .
+One of the suppoert vector is: 5662th point .
+One of the suppoert vector is: 5674th point .
+One of the suppoert vector is: 5682th point .
+One of the suppoert vector is: 5685th point .
+One of the suppoert vector is: 5722th point .
+One of the suppoert vector is: 5753th point .
+One of the suppoert vector is: 5757th point .
+One of the suppoert vector is: 5764th point .
+One of the suppoert vector is: 5765th point .
+One of the suppoert vector is: 5769th point .
+One of the suppoert vector is: 5782th point .
+One of the suppoert vector is: 5790th point .
+One of the suppoert vector is: 5839th point .
+One of the suppoert vector is: 5840th point .
+One of the suppoert vector is: 5865th point .
+One of the suppoert vector is: 5868th point .
+One of the suppoert vector is: 5869th point .
+One of the suppoert vector is: 5886th point .
+One of the suppoert vector is: 5905th point .
+One of the suppoert vector is: 5920th point .
+One of the suppoert vector is: 5922th point .
+One of the suppoert vector is: 5935th point .
+One of the suppoert vector is: 5953th point .
+One of the suppoert vector is: 5990th point .
+One of the suppoert vector is: 6030th point .
+One of the suppoert vector is: 6046th point .
+One of the suppoert vector is: 6052th point .
+One of the suppoert vector is: 6084th point .
+One of the suppoert vector is: 6102th point .
+One of the suppoert vector is: 6107th point .
+One of the suppoert vector is: 6108th point .
+One of the suppoert vector is: 6109th point .
+One of the suppoert vector is: 6131th point .
+One of the suppoert vector is: 6180th point .
+One of the suppoert vector is: 6181th point .
+One of the suppoert vector is: 6185th point .
+One of the suppoert vector is: 6187th point .
+One of the suppoert vector is: 6219th point .
+One of the suppoert vector is: 6230th point .
+One of the suppoert vector is: 6236th point .
+One of the suppoert vector is: 6262th point .
+One of the suppoert vector is: 6266th point .
+One of the suppoert vector is: 6270th point .
+One of the suppoert vector is: 6271th point .
+One of the suppoert vector is: 6276th point .
+One of the suppoert vector is: 6309th point .
+One of the suppoert vector is: 6329th point .
+One of the suppoert vector is: 6330th point .
+One of the suppoert vector is: 6361th point .
+One of the suppoert vector is: 6418th point .
+One of the suppoert vector is: 6431th point .
+One of the suppoert vector is: 6446th point .
+One of the suppoert vector is: 6482th point .
+One of the suppoert vector is: 6484th point .
+One of the suppoert vector is: 6506th point .
+One of the suppoert vector is: 6513th point .
+One of the suppoert vector is: 6520th point .
+One of the suppoert vector is: 6521th point .
+One of the suppoert vector is: 6522th point .
+One of the suppoert vector is: 6542th point .
+One of the suppoert vector is: 6573th point .
+One of the suppoert vector is: 6586th point .
+One of the suppoert vector is: 6588th point .
+One of the suppoert vector is: 6591th point .
+One of the suppoert vector is: 6600th point .
+One of the suppoert vector is: 6651th point .
+One of the suppoert vector is: 6653th point .
+One of the suppoert vector is: 6655th point .
+One of the suppoert vector is: 6656th point .
+One of the suppoert vector is: 6667th point .
+One of the suppoert vector is: 6668th point .
+One of the suppoert vector is: 6669th point .
+One of the suppoert vector is: 6672th point .
+One of the suppoert vector is: 6696th point .
+One of the suppoert vector is: 6700th point .
+One of the suppoert vector is: 6828th point .
+One of the suppoert vector is: 6846th point .
+One of the suppoert vector is: 6856th point .
+One of the suppoert vector is: 6869th point .
+One of the suppoert vector is: 6871th point .
+One of the suppoert vector is: 6902th point .
+One of the suppoert vector is: 6913th point .
+One of the suppoert vector is: 6922th point .
+One of the suppoert vector is: 6942th point .
+One of the suppoert vector is: 6968th point .
+One of the suppoert vector is: 7003th point .
+One of the suppoert vector is: 7033th point .
+One of the suppoert vector is: 7042th point .
+One of the suppoert vector is: 7084th point .
+One of the suppoert vector is: 7089th point .
+One of the suppoert vector is: 7090th point .
+One of the suppoert vector is: 7096th point .
+One of the suppoert vector is: 7103th point .
+One of the suppoert vector is: 7105th point .
+One of the suppoert vector is: 7126th point .
+One of the suppoert vector is: 7133th point .
+One of the suppoert vector is: 7153th point .
+One of the suppoert vector is: 7165th point .
+One of the suppoert vector is: 7166th point .
+One of the suppoert vector is: 7219th point .
+One of the suppoert vector is: 7228th point .
+One of the suppoert vector is: 7229th point .
+One of the suppoert vector is: 7236th point .
+One of the suppoert vector is: 7243th point .
+One of the suppoert vector is: 7308th point .
+One of the suppoert vector is: 7337th point .
+One of the suppoert vector is: 7351th point .
+One of the suppoert vector is: 7362th point .
+One of the suppoert vector is: 7379th point .
+One of the suppoert vector is: 7432th point .
+One of the suppoert vector is: 7452th point .
+One of the suppoert vector is: 7519th point .
+One of the suppoert vector is: 7533th point .
+One of the suppoert vector is: 7575th point .
+One of the suppoert vector is: 7646th point .
+One of the suppoert vector is: 7650th point .
+One of the suppoert vector is: 7667th point .
+One of the suppoert vector is: 7670th point .
+One of the suppoert vector is: 7718th point .
+One of the suppoert vector is: 7810th point .
+One of the suppoert vector is: 7866th point .
+One of the suppoert vector is: 7893th point .
+One of the suppoert vector is: 7970th point .
+One of the suppoert vector is: 8030th point .
+One of the suppoert vector is: 8160th point .
+One of the suppoert vector is: 8176th point .
+One of the suppoert vector is: 8239th point .
+One of the suppoert vector is: 8254th point .
+One of the suppoert vector is: 8283th point .
+One of the suppoert vector is: 8284th point .
+One of the suppoert vector is: 8497th point .
+One of the suppoert vector is: 8502th point .
+One of the suppoert vector is: 8506th point .
+One of the suppoert vector is: 8601th point .
+One of the suppoert vector is: 8731th point .
+One of the suppoert vector is: 8745th point .
+One of the suppoert vector is: 8751th point .
+One of the suppoert vector is: 8789th point .
+One of the suppoert vector is: 8834th point .
+One of the suppoert vector is: 8871th point .
+One of the suppoert vector is: 8898th point .
+One of the suppoert vector is: 8970th point .
+One of the suppoert vector is: 8973th point .
+One of the suppoert vector is: 8983th point .
+One of the suppoert vector is: 8997th point .
+
+B0 =
+
+   -0.1478
+
+
+B1 =
+
+    1.8522
+
+
+B =
+
+   -0.8522
+
+spam/total in train data  : 5163/9000
+estimated spam/total in train data  : 5163/9000
+Accuracy 9000/9000.
+spam/total in train data  : 580/1000
+estimated spam/total in train data  : 581/1000
+accuracy in spamm :        574       1000
+accuracy in ham :        413       1000
+Accuracy 987/1000.
+>> 

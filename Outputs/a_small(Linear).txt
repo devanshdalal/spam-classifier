@@ -1,0 +1,242 @@
+>> p2
+
+n =
+
+   996
+
+
+m =
+
+        2000
+
+ 
+Calling SDPT3 4.0: 4990 variables, 2990 equality constraints
+------------------------------------------------------------
+
+ num. of constraints = 2990
+ dim. of socp   var  = 990,   num. of socp blk  =  1
+ dim. of linear var  = 4000
+*******************************************************************
+   SDPT3: Infeasible path-following algorithms
+*******************************************************************
+ version  predcorr  gam  expon  scale_data
+    NT      1      0.000   1        0    
+it pstep dstep pinfeas dinfeas  gap      prim-obj      dual-obj    cputime
+-------------------------------------------------------------------
+ 0|0.000|0.000|6.5e+02|7.7e-01|8.5e+07| 4.263658e+07  0.000000e+00| 0:0:22| chol  1  1 
+ 1|0.961|1.000|2.5e+01|3.3e-05|1.2e+07| 8.737173e+06 -4.885962e+05| 0:0:43| chol  1  1 
+ 2|0.934|1.000|1.7e+00|3.3e-06|9.9e+05| 5.779837e+05 -3.024184e+05| 0:1:01| chol  1  1 
+ 3|0.544|0.987|7.7e-01|3.7e-07|4.2e+05| 2.650972e+05 -8.967388e+04| 0:1:17| chol  1  1 
+ 4|0.666|0.957|2.6e-01|4.7e-08|1.4e+05| 9.130727e+04 -2.282399e+04| 0:1:34| chol  1  1 
+ 5|0.663|1.000|8.6e-02|3.3e-09|5.6e+04| 3.421437e+04 -1.423564e+04| 0:1:51| chol  1  1 
+ 6|0.922|0.783|6.7e-03|2.4e-05|7.9e+03| 1.315021e+03 -5.351360e+03| 0:2:07| chol  1  2 
+ 7|0.298|0.692|4.7e-03|2.4e-05|5.7e+03| 1.105000e+03 -3.581277e+03| 0:2:24| chol  2  2 
+ 8|0.484|0.674|2.4e-03|1.9e-05|3.7e+03| 7.644082e+02 -2.184757e+03| 0:2:41| chol  1  1 
+ 9|0.646|1.000|8.6e-04|3.8e-06|1.3e+03| 3.968812e+02 -7.279704e+02| 0:2:56| chol  2  1 
+10|0.876|1.000|1.1e-04|7.7e-07|2.6e+02| 5.918533e+01 -1.737096e+02| 0:3:12| chol  2  2 
+11|1.000|0.991|2.0e-16|3.1e-07|1.0e+02| 2.727631e+01 -6.620645e+01| 0:3:28| chol  2  2 
+12|1.000|1.000|2.2e-16|1.0e-12|3.8e+01| 6.333996e+00 -3.194942e+01| 0:3:46| chol  2  2 
+13|1.000|0.925|4.3e-16|1.1e-12|1.2e+01| 3.260548e+00 -8.998103e+00| 0:4:05| chol  2  2 
+14|0.998|1.000|1.7e-16|1.0e-12|4.4e+00| 4.849325e-01 -3.909282e+00| 0:4:23| chol  2  2 
+15|1.000|0.940|3.9e-16|1.1e-12|1.4e+00| 2.104881e-01 -1.219511e+00| 0:4:41| chol  2  2 
+16|1.000|1.000|1.2e-16|1.0e-12|5.7e-01|-9.126541e-02 -6.644406e-01| 0:4:59| chol  2  2 
+17|1.000|1.000|3.8e-16|1.0e-12|3.2e-01|-1.276827e-01 -4.466724e-01| 0:5:16| chol  2  2 
+18|1.000|0.937|1.5e-15|1.1e-12|1.4e-01|-1.729764e-01 -3.168025e-01| 0:5:33| chol  2  2 
+19|0.583|0.920|1.2e-15|1.1e-12|9.3e-02|-1.836835e-01 -2.763252e-01| 0:5:50| chol  2  2 
+20|1.000|0.870|1.9e-15|1.1e-12|4.5e-02|-2.018133e-01 -2.471168e-01| 0:6:08| chol  2  2 
+21|1.000|1.000|4.7e-16|1.0e-12|1.9e-02|-2.093789e-01 -2.286000e-01| 0:6:25| chol  2  2 
+22|1.000|0.955|3.3e-16|1.0e-12|3.6e-03|-2.155284e-01 -2.191340e-01| 0:6:43| chol  2  2 
+23|1.000|0.998|1.1e-15|1.0e-12|8.4e-04|-2.165257e-01 -2.173361e-01| 0:7:01| chol  2  2 
+24|0.997|1.000|8.1e-15|5.6e-13|1.9e-04|-2.168114e-01 -2.169814e-01| 0:7:19| chol  2  2 
+25|1.000|1.000|1.5e-13|9.4e-14|3.1e-05|-2.168767e-01 -2.169053e-01| 0:7:37| chol  2  2 
+26|1.000|1.000|2.8e-12|2.2e-14|7.5e-06|-2.168867e-01 -2.168935e-01| 0:7:55| chol  3  2 
+27|1.000|1.000|1.1e-11|5.5e-15|1.9e-06|-2.168891e-01 -2.168908e-01| 0:8:12| chol  3  3 
+  stop: Z not positive definite
+28|0.510|0.608|5.4e-12|5.8e-15|1.2e-06|-2.168893e-01 -2.168904e-01| 0:8:29|
+-------------------------------------------------------------------
+ number of iterations   = 28
+ primal objective value = -2.16889332e-01
+ dual   objective value = -2.16890374e-01
+ gap := trace(XZ)       = 1.22e-06
+ relative gap           = 8.50e-07
+ actual relative gap    = 7.27e-07
+ rel. primal infeas (scaled problem)   = 5.41e-12
+ rel. dual     "        "       "      = 5.82e-15
+ rel. primal infeas (unscaled problem) = 0.00e+00
+ rel. dual     "        "       "      = 0.00e+00
+ norm(X), norm(y), norm(Z) = 4.5e+01, 9.1e+02, 9.6e+05
+ norm(A), norm(b), norm(C) = 9.0e+01, 4.6e+01, 9.6e+05
+ Total CPU time (secs)  = 509.47  
+ CPU time per iteration = 18.20  
+ termination code       = -3
+ DIMACS: 1.2e-10  0.0e+00  8.2e-15  0.0e+00  7.3e-07  8.5e-07
+-------------------------------------------------------------------
+ 
+------------------------------------------------------------
+Status: Inaccurate/Solved
+Optimal value (cvx_optval): -0.216889
+ 
+One of the suppoert vector is: 33th point .
+One of the suppoert vector is: 41th point .
+One of the suppoert vector is: 48th point .
+One of the suppoert vector is: 54th point .
+One of the suppoert vector is: 56th point .
+One of the suppoert vector is: 61th point .
+One of the suppoert vector is: 62th point .
+One of the suppoert vector is: 79th point .
+One of the suppoert vector is: 95th point .
+One of the suppoert vector is: 100th point .
+One of the suppoert vector is: 111th point .
+One of the suppoert vector is: 118th point .
+One of the suppoert vector is: 120th point .
+One of the suppoert vector is: 123th point .
+One of the suppoert vector is: 132th point .
+One of the suppoert vector is: 149th point .
+One of the suppoert vector is: 150th point .
+One of the suppoert vector is: 156th point .
+One of the suppoert vector is: 159th point .
+One of the suppoert vector is: 174th point .
+One of the suppoert vector is: 175th point .
+One of the suppoert vector is: 198th point .
+One of the suppoert vector is: 203th point .
+One of the suppoert vector is: 206th point .
+One of the suppoert vector is: 209th point .
+One of the suppoert vector is: 210th point .
+One of the suppoert vector is: 213th point .
+One of the suppoert vector is: 214th point .
+One of the suppoert vector is: 217th point .
+One of the suppoert vector is: 218th point .
+One of the suppoert vector is: 224th point .
+One of the suppoert vector is: 225th point .
+One of the suppoert vector is: 234th point .
+One of the suppoert vector is: 250th point .
+One of the suppoert vector is: 254th point .
+One of the suppoert vector is: 255th point .
+One of the suppoert vector is: 263th point .
+One of the suppoert vector is: 265th point .
+One of the suppoert vector is: 285th point .
+One of the suppoert vector is: 288th point .
+One of the suppoert vector is: 289th point .
+One of the suppoert vector is: 305th point .
+One of the suppoert vector is: 314th point .
+One of the suppoert vector is: 316th point .
+One of the suppoert vector is: 323th point .
+One of the suppoert vector is: 335th point .
+One of the suppoert vector is: 340th point .
+One of the suppoert vector is: 353th point .
+One of the suppoert vector is: 360th point .
+One of the suppoert vector is: 372th point .
+One of the suppoert vector is: 382th point .
+One of the suppoert vector is: 383th point .
+One of the suppoert vector is: 395th point .
+One of the suppoert vector is: 405th point .
+One of the suppoert vector is: 406th point .
+One of the suppoert vector is: 409th point .
+One of the suppoert vector is: 451th point .
+One of the suppoert vector is: 462th point .
+One of the suppoert vector is: 469th point .
+One of the suppoert vector is: 470th point .
+One of the suppoert vector is: 476th point .
+One of the suppoert vector is: 477th point .
+One of the suppoert vector is: 502th point .
+One of the suppoert vector is: 509th point .
+One of the suppoert vector is: 541th point .
+One of the suppoert vector is: 551th point .
+One of the suppoert vector is: 571th point .
+One of the suppoert vector is: 584th point .
+One of the suppoert vector is: 611th point .
+One of the suppoert vector is: 620th point .
+One of the suppoert vector is: 792th point .
+One of the suppoert vector is: 797th point .
+One of the suppoert vector is: 830th point .
+One of the suppoert vector is: 874th point .
+One of the suppoert vector is: 875th point .
+One of the suppoert vector is: 877th point .
+One of the suppoert vector is: 915th point .
+One of the suppoert vector is: 916th point .
+One of the suppoert vector is: 920th point .
+One of the suppoert vector is: 940th point .
+One of the suppoert vector is: 959th point .
+One of the suppoert vector is: 978th point .
+One of the suppoert vector is: 1019th point .
+One of the suppoert vector is: 1058th point .
+One of the suppoert vector is: 1063th point .
+One of the suppoert vector is: 1072th point .
+One of the suppoert vector is: 1082th point .
+One of the suppoert vector is: 1087th point .
+One of the suppoert vector is: 1089th point .
+One of the suppoert vector is: 1116th point .
+One of the suppoert vector is: 1117th point .
+One of the suppoert vector is: 1124th point .
+One of the suppoert vector is: 1144th point .
+One of the suppoert vector is: 1168th point .
+One of the suppoert vector is: 1228th point .
+One of the suppoert vector is: 1236th point .
+One of the suppoert vector is: 1238th point .
+One of the suppoert vector is: 1283th point .
+One of the suppoert vector is: 1346th point .
+One of the suppoert vector is: 1363th point .
+One of the suppoert vector is: 1386th point .
+One of the suppoert vector is: 1409th point .
+One of the suppoert vector is: 1411th point .
+One of the suppoert vector is: 1493th point .
+One of the suppoert vector is: 1522th point .
+One of the suppoert vector is: 1532th point .
+One of the suppoert vector is: 1546th point .
+One of the suppoert vector is: 1548th point .
+One of the suppoert vector is: 1560th point .
+One of the suppoert vector is: 1597th point .
+One of the suppoert vector is: 1623th point .
+One of the suppoert vector is: 1628th point .
+One of the suppoert vector is: 1629th point .
+One of the suppoert vector is: 1639th point .
+One of the suppoert vector is: 1667th point .
+One of the suppoert vector is: 1703th point .
+One of the suppoert vector is: 1719th point .
+One of the suppoert vector is: 1760th point .
+One of the suppoert vector is: 1772th point .
+One of the suppoert vector is: 1777th point .
+One of the suppoert vector is: 1789th point .
+One of the suppoert vector is: 1793th point .
+One of the suppoert vector is: 1799th point .
+One of the suppoert vector is: 1819th point .
+One of the suppoert vector is: 1840th point .
+One of the suppoert vector is: 1851th point .
+One of the suppoert vector is: 1852th point .
+One of the suppoert vector is: 1853th point .
+One of the suppoert vector is: 1865th point .
+One of the suppoert vector is: 1870th point .
+One of the suppoert vector is: 1890th point .
+One of the suppoert vector is: 1898th point .
+One of the suppoert vector is: 1899th point .
+One of the suppoert vector is: 1914th point .
+One of the suppoert vector is: 1915th point .
+One of the suppoert vector is: 1950th point .
+One of the suppoert vector is: 1951th point .
+One of the suppoert vector is: 1989th point .
+One of the suppoert vector is: 1991th point .
+One of the suppoert vector is: 1992th point .
+One of the suppoert vector is: 1996th point .
+One of the suppoert vector is: 1999th point .
+One of the suppoert vector is: 2000th point .
+
+B0 =
+
+   -1.0832
+
+
+B1 =
+
+    0.9168
+
+
+B =
+
+    0.0832
+
+spam/total in train data  : 1148/2000
+estimated spam/total in train data  : 1148/2000
+Accuracy 2000/2000.
+spam/total in train data  : 580/1000
+estimated spam/total in train data  : 659/1000
+Accuracy 913/1000.
