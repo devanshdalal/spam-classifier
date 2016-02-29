@@ -16,20 +16,11 @@ Each matlab script properly documented and it explains what it is doing.
 ## Theory & Performance
 
 ----------------
-![image]()
+![image](https://cloud.githubusercontent.com/assets/5080310/13757405/45092b56-ea4a-11e5-8926-d0dc9681d2f3.jpg)
 ----------------
-![image](https://cloud.githubusercontent.com/assets/5080310/13752458/c6f669b4-ea34-11e5-85f3-f6c7867790fd.png)
+![image](https://cloud.githubusercontent.com/assets/5080310/13757406/45123480-ea4a-11e5-8893-98c6c6df4591.jpg)
 ----------------
-![image](https://cloud.githubusercontent.com/assets/5080310/13752460/c7393eba-ea34-11e5-8c72-8d5cad37a610.png)
-----------------
-![image](https://cloud.githubusercontent.com/assets/5080310/13752462/c760e6ea-ea34-11e5-8281-7ace1c64315c.png)
-----------------
-![image](https://cloud.githubusercontent.com/assets/5080310/13752459/c736ccca-ea34-11e5-8895-6ffad330bbf4.png)
-----------------
-![image](https://cloud.githubusercontent.com/assets/5080310/13752461/c75bab8a-ea34-11e5-884b-1b377ec384be.png)
-----------------
-
-
+![image](https://cloud.githubusercontent.com/assets/5080310/13757407/451574a6-ea4a-11e5-8088-954b90ff1dd0.jpg)
 
 
 ## Possible improvements
