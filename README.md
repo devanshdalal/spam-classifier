@@ -25,7 +25,7 @@ Each matlab script properly documented and it explains what it is doing.
 
 ## Possible improvements
 
-- Use capitalization data - right now we are using lowercased data. But anecdotally it seems like spams have a higher chance of being in all caps [ __shouting__ , __Supurios offers__, etc ].
+- Use capitalization data - right now we are using lowercased data. But anecdotally it seems like spams have a higher chance of being in all caps [ _shouting_ , _Supurios offers_, etc ].
 
 - Use punctuation - the classifier doesn't really use punctuation, this is most likely a mistake because spams seem to have a lot of weird punctuation and ascii art.
 
