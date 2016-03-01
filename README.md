@@ -41,6 +41,5 @@ Each matlab script properly documented and it explains what it is doing.
 5. Submit a pull request :)
 
 ## Credits
-
 - Devansh Dalal ([@devanshdalal](https://github.com/devanshdalal))
 
