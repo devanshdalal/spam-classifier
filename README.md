@@ -10,7 +10,6 @@ The training data is present in file _train_ and _train-small_ while unlabled da
 ## Usage
 
 Implementation is done using CVX package for convex-optimization which was later compared with classification done using LibSVM for matlab.<br>
-
 Each matlab script properly documented and it explains what it is doing.
 
 
