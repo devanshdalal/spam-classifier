@@ -42,4 +42,5 @@ Each matlab script properly documented and it explains what it is doing.
 
 ## Credits
 
-- Devansh Dalal ([@devanshdalal](https://github.com/devanshdalal)) <br>
+- Devansh Dalal ([@devanshdalal](https://github.com/devanshdalal))
+
