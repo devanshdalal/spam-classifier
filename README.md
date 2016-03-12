@@ -34,7 +34,6 @@ Each matlab script properly documented and it explains what it is doing.
 
 
 ## Contributing
-
 1. Fork it!
 2. Create your branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -m 'Added Some featues'``
