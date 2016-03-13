@@ -13,8 +13,8 @@ Implementation is done using CVX package for convex-optimization which was later
 
 Each matlab script properly documented and it explains what it is doing.
 
-## Theory & Performance
 
+## Theory & Performance
 ----------------
 ![image](https://cloud.githubusercontent.com/assets/5080310/13757405/45092b56-ea4a-11e5-8926-d0dc9681d2f3.jpg)
 ----------------
