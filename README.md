@@ -1,4 +1,5 @@
 # spam-classifier
+![Logo](https://cloud.githubusercontent.com/assets/5080310/14761294/b90564fe-0979-11e6-850b-4cafc4c08e59.gif)
 Spam classifier using Support Vector Machines 
 
 <!-- SVMs are really accurate if used properly. but resource used are a tradeoff. -->
